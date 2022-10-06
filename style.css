@@ -14,12 +14,6 @@
     height: 80px;
 }
 
-.logo-container .img-container{
-    width: 50px;
-    height: 50px;
-    /* border: 2px solid red; */
-}
-
 .logo-container h2{
     /* border: 2px solid green; */
     display: inline-block;
@@ -66,6 +60,24 @@
     padding: 50px 100px;
 }
 
+.photos-container .photo i{
+    display: none;
+    font-size: 50px;
+    color: black;
+    margin: 90px 130px;
+}
+
+.photos-container .photo:hover i{
+    display: block;
+    color: black;
+    position: absolute;
+}
+
+.photos-container .photo:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 .photo{
     width: 330px;
     height: 230px;
@@ -78,6 +90,31 @@
     border-radius: 20px;
 }
 
+/* banner  */
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    color: white;
+    background-image: url("Images/banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px 500px;
+    padding: 50px 300px;
+    opacity: 0.8;
+}
+
+.banner .book-trial-btn button{
+    background: none;
+}
+.banner .book-trial-btn button:hover{
+    color: aqua;
+}
+
+.banner p{
+    padding: 10px;
+}
+
 /* footer */
 .footer-container{
     display: flex;
@@ -88,6 +125,9 @@
     padding: 50px 100px;
 }
 
+.photograph{
+    width: 25%;
+}
 .photograph ul{
     list-style: none;
     display: flex;
@@ -97,10 +137,43 @@
     padding: 5px;
 }
 
+.photograph p{
+    margin: 5px;
+}
+
 .fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin
 {
     color: aqua;
     padding: 10px;
     border: 1px solid aqua;
     border-radius: 20px;
+}
+
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.fa-linkedin:hover{
+    background-color: aqua;
+    color: black
+}
+
+.contact-info ul li{
+    list-style: none;
+    margin: 5px;
+}
+
+.subscribe-btn button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: aqua;
+    border: 1px solid aqua;
+    background-color: black;
+    cursor: pointer;
+}
+
+
+.newsletter .email input{
+    background-color: black;
+    height: 30px;
+    width: 200px;
+     border: 1px solid aqua; 
+     border-radius: 10px;
+     margin: 5px;
 }
