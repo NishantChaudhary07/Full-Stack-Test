@@ -54,10 +54,36 @@
     transition: 0.3s ease-in-out;
 }
 
+/* home */
+.home{
+    margin-right: 50rem;
+    margin-left: 100px;
+    width: 83%; 
+    margin-top: 20px;  
+    color: black;
+    border-radius: 20px;
+
+    background-color: antiquewhite;
+}
+
+.home .blog{
+    
+    border-radius: 10%;
+    transform: ro;
+}
+
+.home .blog h1{
+    color: blue;
+    padding: 0.9rem;
+}
+.home .blog p{
+    padding: 0px 0px 15px 15px;
+}
+/* photographs */
 .photos-container{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 100px;
+    padding: 20px 100px;
 }
 
 .photos-container .photo i{
