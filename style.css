@@ -77,3 +77,30 @@
     height: 100%;
     border-radius: 20px;
 }
+
+/* footer */
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 50px 100px;
+}
+
+.photograph ul{
+    list-style: none;
+    display: flex;
+}
+
+.photograph ul li{
+    padding: 5px;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin
+{
+    color: aqua;
+    padding: 10px;
+    border: 1px solid aqua;
+    border-radius: 20px;
+}
